@@ -1,0 +1,289 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="styles/style.css" />
+    <link rel="stylesheet" href="styles/responsive.css" />
+    <link
+      rel="stylesheet"
+      href="https://unpkg.com/boxicons@latest/css/boxicons.min.css"
+    />
+    <link
+      rel="stylesheet"
+      href="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.css"
+    />
+    <title>movie</title>
+  </head>
+
+  <body>
+    <header>
+      <div class="logo">
+        <i class="bx bxs-movie"></i>
+        <a href="">Movie</a>
+      </div>
+      <i class="bx bx-menu" id="menu-icon"></i>
+      <div class="navbar">
+        <ul>
+          <li><a href="" id="home">Home</a></li>
+          <li><a href="" id="movies">Movies</a></li>
+          <li><a href="" id="coming">Comming</a></li>
+          <li><a href="" id="newsletter">Newsletter</a></li>
+        </ul>
+      </div>
+      <button class="btn">Sign in</button>
+      <!-- mobile navbar -->
+      <div class="menu-mobile">
+        <button class="close-btn" id="close-btn">
+          <i class="bx bx-plus"></i>
+        </button>
+        <div class="search">
+          <input type="text" placeholder="search Movies" />
+          <i class="bx bx-search"></i>
+        </div>
+        <ul class="navbar2">
+          <li><a href="">Home</a></li>
+          <li><a href="">Movies</a></li>
+          <li><a href="">Comming</a></li>
+          <li><a href="">Newsletter</a></li>
+        </ul>
+        <button class="btn-mobile">Sign in</button>
+      </div>
+    </header>
+
+    <!-- section swiper -->
+    <section class="home swiper" id="home">
+      <div class="swiper-wrapper">
+        <div class="swiper-slide container">
+          <img src="img/home1.jpg" alt="" />
+          <div class="home-text">
+            <span>Marvel Universe</span>
+            <h1>
+              Venom: Let There<br />
+              Be Carnage
+            </h1>
+            <div class="info">
+              <a href="" class="btn-home">Book Now</a>
+              <a href="" class="play"><i class="bx bx-play"></i></a>
+            </div>
+          </div>
+        </div>
+        <div class="swiper-slide container">
+          <img src="img/home2.jpg" alt="" />
+          <div class="home-text">
+            <span>Marvel Universe</span>
+            <h1>Avengers: Infinity War</h1>
+            <div class="info">
+              <a href="" class="btn-home">Book Now</a>
+              <a href="" class="play"><i class="bx bx-play"></i></a>
+            </div>
+          </div>
+        </div>
+        <div class="swiper-slide container">
+          <img src="img/home3.jpg" alt="" />
+          <div class="home-text">
+            <span>Marvel Universe</span>
+            <h1>Spider-Man: No Way Home</h1>
+            <div class="info">
+              <a href="" class="btn-home">Book Now</a>
+              <a href="" class="play"><i class="bx bx-play"></i></a>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="swiper-pagination"></div>
+    </section>
+    <!-- movies section -->
+    <section class="movies" id="movies">
+      <h1 class="heading">Opening This Week</h1>
+      <div class="movies-container">
+        <div class="box">
+          <div class="box-img">
+            <img src="img/m1.jpg" alt="" />
+          </div>
+          <h3>Venom</h3>
+          <span>120 min | Action</span>
+        </div>
+        <div class="box">
+          <div class="box-img">
+            <img src="img/m2.jpg" alt="" />
+          </div>
+          <h3>Dunkirk</h3>
+          <span>120 min | Adventure</span>
+        </div>
+        <div class="box">
+          <div class="box-img">
+            <img src="img/m3.jpg" alt="" />
+          </div>
+          <h3>Batman Vs Superman</h3>
+          <span>120 min | Action</span>
+        </div>
+
+        <div class="box">
+          <div class="box-img">
+            <img src="img/m4.jpg" alt="" />
+          </div>
+          <h3>John Wick 2</h3>
+          <span>120 min | Action</span>
+        </div>
+        <div class="box">
+          <div class="box-img">
+            <img src="img/m5.jpg" alt="" />
+          </div>
+          <h3>Aquaman</h3>
+          <span>120 min | Adventure</span>
+        </div>
+        <div class="box">
+          <div class="box-img">
+            <img src="img/m6.jpg" alt="" />
+          </div>
+          <h3>Black Panter</h3>
+          <span>120 min | Action</span>
+        </div>
+        <div class="box">
+          <div class="box-img">
+            <img src="img/m7.jpg" alt="" />
+          </div>
+          <h3>Thor</h3>
+          <span>120 min | Action</span>
+        </div>
+        <div class="box">
+          <div class="box-img">
+            <img src="img/m8.png" alt="" />
+          </div>
+          <h3>Bumblebee</h3>
+          <span>120 min | Action</span>
+        </div>
+        <div class="box">
+          <div class="box-img">
+            <img src="img/m9.jpg" alt="" />
+          </div>
+          <h3>Mortal Engines</h3>
+          <span>120 min | Action</span>
+        </div>
+        <div class="box">
+          <div class="box-img">
+            <img src="img/m10.jpg" alt="" />
+          </div>
+          <h3>Underworld bloodwars</h3>
+          <span>120 min | Action</span>
+        </div>
+      </div>
+    </section>
+    <!-- cooming -->
+    <section class="coming" id="coming">
+      <h1 class="heading">Coomung Soon</h1>
+      <div class="coming-container swiper">
+        <div class="swiper-wrapper">
+          <div class="swiper-slide box1">
+            <div class="box-img">
+              <img src="img/coming1.jpg" alt="" />
+            </div>
+            <h3>Jhony English</h3>
+            <span>120 min | Action</span>
+          </div>
+          <div class="swiper-slide box1">
+            <div class="box-img">
+              <img src="img/coming2.jpg" alt="" />
+            </div>
+            <h3>Warcraft</h3>
+            <span>120 min | Adventure</span>
+          </div>
+          <div class="swiper-slide box1">
+            <div class="box-img">
+              <img src="img/coming3.jpg" alt="" />
+            </div>
+            <h3>Rampage</h3>
+            <span>120 min | Action</span>
+          </div>
+
+          <div class="swiper-slide box1">
+            <div class="box-img">
+              <img src="img/coming4.jpg" alt="" />
+            </div>
+            <h3>Iron Lady</h3>
+            <span>120 min | Action</span>
+          </div>
+          <div class="swiper-slide box1">
+            <div class="box-img">
+              <img src="img/coming5.jpg" alt="" />
+            </div>
+            <h3>Justice League</h3>
+            <span>120 min | Adventure</span>
+          </div>
+          <div class="swiper-slide box1">
+            <div class="box-img">
+              <img src="img/coming6.jpeg" alt="" />
+            </div>
+            <h3>Doctor Strange</h3>
+            <span>120 min | Action</span>
+          </div>
+          <div class="swiper-slide box1">
+            <div class="box-img">
+              <img src="img/coming7.jpg" alt="" />
+            </div>
+            <h3>Captain Marvel</h3>
+            <span>120 min | Action</span>
+          </div>
+          <div class="swiper-slide box1">
+            <div class="box-img">
+              <img src="img/coming8.jpg" alt="" />
+            </div>
+            <h3>Black Widow</h3>
+            <span>120 min | Action</span>
+          </div>
+          <div class="swiper-slide box1">
+            <div class="box-img">
+              <img src="img/coming9.jpg" alt="" />
+            </div>
+            <h3>Ant-Man</h3>
+            <span>120 min | Action</span>
+          </div>
+          <div class="swiper-slide box1">
+            <div class="box-img">
+              <img src="img/coming10.jpg" alt="" />
+            </div>
+            <h3>Guardian of the Galexy</h3>
+            <span>120 min | Action</span>
+          </div>
+        </div>
+        <div class="swiper-pagination"></div>
+      </div>
+    </section>
+    <!-- newsletter -->
+    <section class="newsletter" id="newsletter">
+      <h2>Subscribe to Get <br />News letter</h2>
+      <form action="">
+        <input
+          type="email"
+          name=""
+          id="email"
+          placeholder="Enter Emaile..."
+          required
+        />
+        <input type="submit" value="subscribe" class="btn" />
+      </form>
+    </section>
+    <section class="footer" id="footer">
+      <div class="logo">
+        <i class="bx bxs-movie"></i>
+        <a href="">Movie</a>
+      </div>
+      <div class="social-media">
+        <a href=""><i class="bx bxl-telegram"></i></a>
+        <a href=""><i class="bx bxl-facebook"></i></a>
+        <a href=""><i class="bx bxl-twitter"></i></a>
+        <a href=""><i class='bx bxl-tiktok' ></i></a>
+        
+
+        <a href=""><i class="bx bxl-instagram"></i></a>
+      </div>
+    </section>
+    <div class="copyright">
+      <p>&#169;Carpolvenom All Right Reserved</p>
+    </div>
+
+    <script src="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.js"></script>
+    <script src="main.js"></script>
+  </body>
+</html>
